@@ -233,6 +233,9 @@ footer {
         padding: 15px 5px;
 
         font-size: 14px;
+
+        transform: none !important;
+        transition: none !important;
     }
 
     .fixed-menu a:active {
