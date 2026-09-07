@@ -263,6 +263,10 @@ footer {
         top: 5px;
         right: 5px;
     }
+
+    .contact-box h2 {
+        margin-top: 20px;
+    }
 }
 
 /* 電話・LINEボタン */
