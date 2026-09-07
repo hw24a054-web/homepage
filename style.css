@@ -170,7 +170,30 @@ footer {
         width: 90%;
     }
 
+    /*サービス詳細*/
 }
+
+.detail-button {
+    display: inline-block;
+
+    margin-top: 20px;
+    padding: 12px 30px;
+
+    background: #87cefa;
+    color: white;
+
+    text-decoration: none;
+    font-weight: bold;
+
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.detail-button:hover {
+    background: #5fb9e8;
+}
+
 
 /* スクロールしても付いてくる固定メニュー */
 .fixed-menu {
