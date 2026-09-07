@@ -171,3 +171,37 @@ footer {
     }
 
 }
+
+/* スクロールしても付いてくる固定メニュー */
+.fixed-menu {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.fixed-menu a {
+    display: block;
+    padding: 15px 20px;
+
+    background: #87cefa;
+    color: white;
+    text-decoration: none;
+
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+    font-weight: bold;
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.fixed-menu a:hover {
+    transform: translateX(-5px);
+}
