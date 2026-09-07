@@ -212,8 +212,8 @@ footer {
     .fixed-menu {
         position: fixed;
         bottom: 10px;
-        left: 10px;
-        right: 10px;
+        left: 0;
+        right: 0;
         top: auto;
 
         transform: none;
