@@ -258,6 +258,13 @@ footer {
     cursor: pointer;
 }
 
+@media (max-width: 768px) {
+    .close-btn {
+        top: 5px;
+        right: 5px;
+    }
+}
+
 /* 電話・LINEボタン */
 .contact-option {
     display: block;
