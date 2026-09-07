@@ -28,6 +28,22 @@
         </a>
     </div>
 </div>
+<!-- メニュー欄 -->
+<div id="menuPanel" class="menu-panel">
+
+    <button class="menu-close" onclick="closeMenu()">×</button>
+
+    <h2>メニュー</h2>
+
+    <a href="index.html">ホーム</a>
+    <a href="#features">サービス</a>
+    <a href="estimate.html">見積もり・注文</a>
+
+    <a href="#" onclick="openContact(); closeMenu(); return false;">
+        お問い合わせ
+    </a>
+
+</div>
 
 <body>
 
@@ -40,7 +56,9 @@
             💬問い合わせ
         </a>
         <a href="estimate.html">💰 見積もり</a>
-        <a href="#menu">☰ メニュー</a>
+        <a href="#" onclick="openMenu(); return false;">
+            ☰<br>メニュー
+        </a>
     </div>
 
     <main>
