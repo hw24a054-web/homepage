@@ -211,7 +211,7 @@ footer {
 
     .fixed-menu {
         position: fixed;
-        bottom: 0;
+        bottom: 10;
         left: 0;
         right: 0;
         top: auto;
@@ -221,7 +221,7 @@ footer {
         flex-direction: row;
         gap: 0;
 
-        width: 100%;
+        width: 95%;
     }
 
     .fixed-menu a {
