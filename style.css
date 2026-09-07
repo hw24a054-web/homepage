@@ -422,3 +422,66 @@ footer {
     }
 
 }
+
+/* スマホ用メニュー */
+.menu-panel {
+    display: none;
+
+    position: fixed;
+    top: 0;
+    right: 0;
+
+    width: 85%;
+    height: 100vh;
+
+    background: white;
+
+    z-index: 3000;
+
+    padding: 70px 25px 30px;
+
+    box-sizing: border-box;
+
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* メニュー表示 */
+.menu-panel.open {
+    display: block;
+}
+
+/* メニュータイトル */
+.menu-panel h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* メニュー項目 */
+.menu-panel a {
+    display: block;
+
+    padding: 18px 10px;
+
+    border-bottom: 1px solid #ddd;
+
+    color: #333;
+    text-decoration: none;
+
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* 閉じるボタン */
+.menu-close {
+    position: absolute;
+
+    top: 10px;
+    right: 10px;
+
+    border: none;
+    background: none;
+
+    font-size: 32px;
+
+    cursor: pointer;
+}
