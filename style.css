@@ -235,8 +235,9 @@ footer {
         font-size: 14px;
     }
 
-    .fixed-menu a:hover {
-        transform: translateY(-5px);
+    .fixed-menu a:active {
+        transform: none;
+        background: #5fb9e8;
     }
 
 }
