@@ -205,3 +205,32 @@ footer {
 .fixed-menu a:hover {
     transform: translateX(-5px);
 }
+
+/*スマホ*/
+@media (max-width: 768px) {
+
+    .fixed-menu {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        top: auto;
+
+        transform: none;
+
+        flex-direction: row;
+        gap: 0;
+
+        width: 100%;
+    }
+
+    .fixed-menu a {
+        flex: 1;
+
+        border-radius: 0;
+        padding: 15px 5px;
+
+        font-size: 14px;
+    }
+
+}
