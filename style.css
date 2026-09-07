@@ -284,7 +284,7 @@ footer {
 @media (max-width: 768px) {
     .close-btn {
         top: 5px;
-        right: -100px;
+        right: -150px;
     }
 
     .contact-box h2 {
