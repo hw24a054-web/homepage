@@ -4,120 +4,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-    <title>ホームページ</title>
+
+    <title>ROOM-READY</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
-
-<!-- お問い合わせ選択画面 -->
-<div id="contactModal" class="contact-modal">
-    <div class="contact-box">
-        <button class="close-btn" onclick="closeContact()">×</button>
-
-        <h2>お問い合わせ</h2>
-        <p>お問い合わせ方法を選択してください</p>
-
-        <a href="tel:09012345678" class="contact-option phone">
-            <i class="fa-solid fa-phone"></i> 電話で問い合わせ
-        </a>
-
-        <a href="https://lin.ee/S4gsgub" target="_blank" class="contact-option line">
-            💬 公式LINEで問い合わせ
-        </a>
-    </div>
-</div>
-
-<!-- メニュー欄 -->
-<div class="fixed-menu">
-    <a href="#" onclick="openMenu(); return false;">
-        ☰<br>メニュー
-    </a>
-</div>
-
 <body>
 
-    <header>
-        <h1> ROOM-READY</h1>
-    </header>
+    <!-- お問い合わせ選択画面 -->
+    <div id="contactModal" class="contact-modal">
+        <div class="contact-box">
 
-    <div class="fixed-menu">
-        <!-- <a href="#" onclick="openContact(); return false;">
-            💬問い合わせ
-        </a>
-        <a href="estimate.html">💰 料金プラン</a> -->
-        <a href="#" onclick="openMenu(); return false;">
-            ☰<br>メニュー
-        </a>
+            <button class="close-btn" onclick="closeContact()">×</button>
+
+            <h2>お問い合わせ</h2>
+
+            <p>お問い合わせ方法を選択してください</p>
+
+            <a href="tel:09012345678" class="contact-option phone">
+                <i class="fa-solid fa-phone"></i>
+                電話で問い合わせ
+            </a>
+
+            <a href="https://lin.ee/S4gsgub" target="_blank" class="contact-option line">
+                💬 公式LINEで問い合わせ
+            </a>
+
+        </div>
     </div>
 
+
+    <!-- 固定メニューボタン -->
+    <div class="fixed-menu">
+
+        <a href="#" onclick="openMenu(); return false;">
+            <span class="menu-icon">☰</span><br>
+            メニュー
+        </a>
+
+    </div>
+
+
+    <!-- ヘッダー -->
+    <header>
+        <h1>ROOM-READY</h1>
+    </header>
+
+
     <main>
+
+        <!-- キャッチコピー -->
         <section id="hero">
-            <h2>空室管理に<br>
-                ROOM-READY</h2>
+
+            <h2>
+                空室管理に<br>
+                ROOM-READY
+            </h2>
 
             <p class="hero-subtitle">
                 内見前のひと手間を
             </p>
+
             <br>
-            <p>空室を内見前にきれいで気持ちのいい状態へ。<br>
 
-                ROOM-READYは賃貸物件の内見前に行う簡易クリーニングサービスです。<br>
+            <p>
+                空室を内見前にきれいで気持ちのいい状態へ。<br>
 
-                ホコリや髪の毛、床の汚れなど内見時に気になりやすい部分を中心に短時間で清掃。
-                「少し汚れているから内見前に整えておきたい」という物件に対応します。<br>
+                ROOM-READYは賃貸物件の内見前に行う
+                簡易クリーニングサービスです。<br>
 
-                入居者が決まる前だからこそ、部屋の第一印象を整える。
+                ホコリや髪の毛、床の汚れなど
+                内見時に気になりやすい部分を中心に短時間で清掃。<br>
+
+                「少し汚れているから内見前に整えておきたい」
+                という物件に対応します。<br>
+
+                入居者が決まる前だからこそ、部屋の第一印象を整える。<br>
 
                 管理会社・オーナー様の空室管理をサポートし、
-                内見するお客様に「きれいな部屋」という印象を持ってもらえる状態をつくります。</p>
+                内見するお客様に「きれいな部屋」という印象を
+                持ってもらえる状態をつくります。
+            </p>
+
         </section>
+
+
+        <!-- サービス -->
         <section id="features">
+
             <h2>サービスA</h2>
+
             <div class="about-image">
-                <img src="images/34766263_s.jpg" alt="サービス画像">
+                <img src="images/34766263_s.jpg" alt="サービスAの画像">
             </div>
-            <p>ここに特徴1の説明を書きます。</p>
+
+            <p>
+                ここにサービスAの説明を書きます。
+            </p>
+
             <a href="service-a.html" class="detail-button">
                 サービスAの詳細を見る
             </a>
 
 
             <h2>サービスB</h2>
+
             <div class="about-image">
-                <img src="images/34766263_s.jpg" alt="サービス画像">
+                <img src="images/34766263_s.jpg" alt="サービスBの画像">
             </div>
-            <p>ここに特徴1の説明を書きます。</p>
+
+            <p>
+                ここにサービスBの説明を書きます。
+            </p>
+
 
             <h2>サービスC</h2>
+
             <div class="about-image">
-                <img src="images/34766263_s.jpg" alt="サービス画像">
+                <img src="images/34766263_s.jpg" alt="サービスCの画像">
             </div>
-            <p>ここに特徴1の説明を書きます。</p>
+
+            <p>
+                ここにサービスCの説明を書きます。
+            </p>
 
 
             <h2>サービスD</h2>
+
             <div class="about-image">
-                <img src="images/34766263_s.jpg" alt="サービス画像">
+                <img src="images/34766263_s.jpg" alt="サービスDの画像">
             </div>
-            <p>ここに特徴1の説明を書きます。</p>
 
-            <section id="contact">
-                <h2>ROOM-READY</h2>
+            <p>
+                ここにサービスDの説明を書きます。
+            </p>
 
-                <p>
-                    TEL xxx-xxxx-xxxx<br>
-                    住所 xxxxxxxxxxxx
-                </p>
+        </section>
 
-            </section>
+
+        <!-- お問い合わせ・会社情報 -->
+        <section id="contact">
+
+            <h2>ROOM-READY</h2>
+
+            <p>
+                TEL xxx-xxxx-xxxx<br>
+                住所 xxxxxxxxxxxx
+            </p>
+
+        </section>
 
     </main>
 
+
+    <!-- フッター -->
     <footer>
         <p>© ROOM-READY HomePage</p>
     </footer>
+
+
+    <!-- メニュー欄 -->
+    <div id="menuPanel" class="menu-panel">
+
+        <button class="menu-close" onclick="closeMenu()">×</button>
+
+        <h2>メニュー</h2>
+
+        <a href="index.html">
+            ホーム
+        </a>
+
+        <a href="#features" onclick="closeMenu();">
+            サービス
+        </a>
+
+        <a href="estimate.html">
+            料金プラン
+        </a>
+
+        <a href="#" onclick="openContact(); closeMenu(); return false;">
+            お問い合わせ
+        </a>
+
+    </div>
+
 
     <script src="script.js"></script>
 
