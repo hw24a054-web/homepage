@@ -233,6 +233,10 @@ footer {
     transition: 0.3s;
 }
 
+.menu-icon {
+    font-size: 32px;
+}
+
 .fixed-menu a:hover {
     background: #164c69;
 }
