@@ -211,8 +211,8 @@ footer {
 /* スクロールしても付いてくる固定メニュー */
 .fixed-menu {
     position: fixed;
-    top: 20px;
-    right: 20px;
+    top: 5px;
+    right: 5px;
     z-index: 1000;
 }
 
