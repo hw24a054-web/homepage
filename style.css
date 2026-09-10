@@ -231,6 +231,9 @@ footer {
     text-align: center;
 
     transition: 0.3s;
+
+    height: 70px;
+    box-sizing: border-box;
 }
 
 .menu-icon {
