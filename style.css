@@ -431,6 +431,12 @@ footer {
 }
 
 /* 料金表 */
+.estimate-header {
+    background: #ffff00;
+    color: white;
+    padding: 20px;
+}
+
 .price-table-wrapper {
     width: 90%;
     max-width: 900px;
@@ -453,7 +459,7 @@ footer {
 }
 
 .price-table th {
-    background: #ff0;
+    background: #87cefa;
     color: white;
     font-weight: bold;
 }
